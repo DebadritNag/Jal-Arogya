@@ -1,0 +1,66 @@
+{
+  "keywords": {
+    "hmpi": {
+      "triggers": ["hmpi", "heavy metal pollution index", "pollution index", "metal pollution"],
+      "response": "HMPI (Heavy Metal Pollution Index) measures the concentration of toxic metals in water. Values ≤100 are safe, 100-200 indicate moderate contamination, and >200 suggest high contamination requiring immediate attention. It's calculated using WHO standards and You can calculate by our automated calculator JalArogya, Fill the Data and get the results immediately."
+    },
+    "lead": {
+      "triggers": ["lead", "pb", "lead poisoning", "lead contamination"],
+      "response": "Lead (Pb) is extremely toxic even at low levels. WHO limit is 0.01 mg/L. Lead exposure can cause neurological damage, especially in children, learning disabilities, and cardiovascular problems. Always use certified lead-free pipes and get your water tested regularly."
+    },
+    "arsenic": {
+      "triggers": ["arsenic", "as", "arsenic poisoning", "arsenic contamination"],
+      "response": "Arsenic (As) is a carcinogenic metal with WHO limit of 0.01 mg/L. Long-term exposure can cause skin lesions, cancer, cardiovascular disease, and diabetes. It's commonly found in groundwater due to natural geological processes."
+    },
+    "water_safety": {
+      "triggers": ["safe", "drink", "drinking water", "water safety", "safe to drink", "potable"],
+      "response": "Water is safe to drink when HMPI ≤ 100 and all individual metal indices are below WHO limits. Signs of safe water include clear appearance, no unusual taste or smell, and test results within WHO guidelines. Always boil water if you're unsure, and consider getting regular water quality tests from certified laboratories."
+    },
+    "testing": {
+      "triggers": ["test", "testing", "sample", "sampling", "laboratory", "lab test", "water test"],
+      "response": "For accurate water testing: 1) Collect samples in clean, sterilized containers, 2) Test pH, conductivity, and heavy metals, 3) Use certified laboratories, 4) Test regularly (every 6 months), 5) Keep records for comparison. Avoid touching the inside of collection containers."
+    },
+    "treatment": {
+      "triggers": ["treatment", "purify", "purification", "filter", "filtration", "clean water", "water treatment"],
+      "response": "Water treatment options include: 1) Reverse Osmosis (removes heavy metals and salts), 2) Activated Carbon filters (removes chlorine and organics), 3) Boiling (kills pathogens but not metals), 4) UV sterilization (eliminates bacteria and viruses). Choose treatment based on your specific water quality test results."
+    },
+    "ph": {
+      "triggers": ["ph", "acidity", "alkalinity", "acidic", "alkaline", "ph level"],
+      "response": "pH measures water acidity/alkalinity on a scale of 0-14. Safe drinking water pH should be 6.5-8.5. Low pH (acidic) can corrode pipes and increase metal leaching, while high pH (alkaline) can cause scaling and affect taste. pH also affects the effectiveness of disinfection."
+    },
+    "cadmium": {
+      "triggers": ["cadmium", "cd", "cadmium poisoning", "cadmium contamination"],
+      "response": "Cadmium (Cd) is a toxic metal with WHO limit of 0.003 mg/L. It damages kidneys and bones, causes hypertension, and is carcinogenic. Common sources include industrial discharge, fertilizers, and corroded galvanized pipes."
+    },
+    "chromium": {
+      "triggers": ["chromium", "cr", "chromium contamination", "chrome"],
+      "response": "Chromium (Cr) has a WHO limit of 0.05 mg/L for drinking water. It can cause allergic reactions, skin ulcers, liver and kidney damage. Industrial activities like metal plating and leather tanning are common sources of chromium contamination."
+    },
+    "nickel": {
+      "triggers": ["nickel", "ni", "nickel contamination", "nickel allergy"],
+      "response": "Nickel (Ni) has a WHO limit of 0.07 mg/L. It can cause allergic reactions, skin dermatitis, and respiratory issues. Common sources include stainless steel pipes, industrial discharge, and natural geological deposits."
+    },
+    "conductivity": {
+      "triggers": ["conductivity", "electrical conductivity", "ec", "tds", "total dissolved solids"],
+      "response": "Electrical conductivity measures water's ability to conduct electricity, indicating dissolved ion concentration. Normal range is 50-1500 μS/cm for drinking water. High conductivity may indicate pollution, while very low conductivity might suggest lack of essential minerals."
+    },
+    "help": {
+      "triggers": ["help", "assistance", "support", "how to use", "instructions", "guide"],
+      "response": "I can help you with: 🔬 Water quality testing and HMPI calculations, ⚠️ Heavy metals information (Lead, Arsenic, Cadmium, Chromium, Nickel), 🧪 Testing procedures and laboratory guidelines, 🚰 Water treatment and purification methods, 📊 Understanding test results and safety standards. Just ask me anything about water quality!"
+    },
+    "who_standards": {
+      "triggers": ["who", "world health organization", "standards", "limits", "guidelines", "who limits"],
+      "response": "WHO (World Health Organization) drinking water standards: Lead ≤0.01 mg/L, Arsenic ≤0.01 mg/L, Cadmium ≤0.003 mg/L, Chromium ≤0.05 mg/L, Nickel ≤0.07 mg/L, pH 6.5-8.5. These limits are set to protect human health from both acute and chronic exposure to contaminants."
+    },
+    "symptoms": {
+      "triggers": ["symptoms", "health effects", "illness", "sick", "poisoning symptoms", "contamination effects"],
+      "response": "Heavy metal contamination symptoms vary by metal: Lead - fatigue, headaches, memory problems, abdominal pain; Arsenic - skin lesions, nausea, diarrhea; Cadmium - kidney problems, bone pain; Chromium - skin irritation, respiratory issues. If you suspect contamination, test your water and consult a healthcare provider."
+    }
+  },
+  "fallback_responses": [
+    "I didn't quite catch that. Can you rephrase your question about water quality?",
+    "I'm not sure about that specific topic. Try asking about HMPI, heavy metals, water testing, or treatment methods.",
+    "Could you be more specific? I can help with water quality analysis, metal contamination, testing procedures, or treatment options.",
+    "I specialize in water quality topics. Ask me about HMPI calculations, heavy metals like lead or arsenic, or water safety standards."
+  ]
+}

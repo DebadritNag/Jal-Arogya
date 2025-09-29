@@ -1,0 +1,33 @@
+/* Custom styles for JalArogya */
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #f8fafc;
+}
+
+/* Leaflet CSS fix */
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+}
+
+/* Utility classes for compatibility */
+.text-blue-500 { color: #3B82F6; }
+.text-green-500 { color: #10B981; }
+.text-red-500 { color: #EF4444; }
+.text-purple-500 { color: #8B5CF6; }
+.text-orange-500 { color: #F97316; }
+.text-yellow-500 { color: #EAB308; }
+.text-gray-400 { color: #9CA3AF; }
+.text-gray-500 { color: #6B7280; }
+.text-gray-600 { color: #4B5563; }
+
+.mx-auto { margin-left: auto; margin-right: auto; }
+.mb-2 { margin-bottom: 0.5rem; }
+.rotate-180 { transform: rotate(180deg); }
